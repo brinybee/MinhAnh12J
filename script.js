@@ -4,7 +4,7 @@ function login()
   let p = password.value
   if (u == "minhanh" && p == "241007")
   {
-    window.open("home.html")
+    window.open("gioithieu.html")
     document.getElementById(complier).style.display="block";
   }
 }
