@@ -6,4 +6,4 @@
 .menu  { background-color: lightgrey;}
 .menu b { color: #333333;}
 .menu a:hover{ color: #999999;}
-.noidung {}
+.noidung { width: 100%; height: 100%;}
