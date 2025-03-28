@@ -1,5 +1,5 @@
 .briny
-{ background-color: #DDDDDD; color: #666666; text-align: center; padding: 20px;}
+{ background-color: #DDDDDD; color: #666666; padding: 20px; colspan: 2; height: 40px; align: center; style: Helvetica;}
 .bee
 { float: left; display: block;}
 .header { color: red; background-color: darkgrey; padding: 15px; text-align: center; width: 100%; height: 100%;}
@@ -7,4 +7,4 @@
 .menu b { color: #333333;}
 .menu a { width: 70%;}
 .noidung { width: 100%; height: 100%;}
-style="color: Tan;"
+
