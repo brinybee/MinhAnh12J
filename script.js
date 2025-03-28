@@ -1,10 +1,12 @@
 function login()
-{
-  let u = username.value
-  let p = password.value
-  if (u == "minhanh" && p == "241007")
-  {
-    window.open("Giới thiệu.html")
-    document.getElementById(complier).style.display="block";
-  }
+{   
+    let a = username.value
+    let b = password.value
+    if (a == "abc" && b == "123")
+    {   
+        window.open("home.html")
+        document.getElementById(compiler).style.display="block";
+    }
+    else 
+        document.write("Không hợp lệ")
 }
