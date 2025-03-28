@@ -10,13 +10,19 @@
     </style>
   </head>
   <body> 
-    <form> 
-      <h2> <label> Họ và tên:<input type = "text" name= "txtTen"></label> </h2> <br>
-      <h2> <label> Địa chỉ email:<input type = "text" name= "txtTen"></label> </h2> <br>
-      <h2> <label> Ý kiến đóng góp:<textarea name = "txtComment" rows = "6" cols = "40"> </textarea></label> </h2> <br>
+   <h1> Đóng góp ý kiến cho thư viện nhà trường</h1>
+    <form action="bai7_nv3.html"> <!bước 4>
+      <h2>
+      <label>Họ và tên: </label>
+      <input type="text" id="ten" name="ten"> <br>
+      <label>email: </label>
+      <input type="text" id="email" name="email"> <br>
+      <textarea id="yk" name="yk" cols=50 rows="3"> </textarea> <br>
+      </h2>
+      <p> Sách cần bổ sung </p>
         <input type = "checkbox" name= "chkTruyenNgan"> Truyện ngắn <br>
         <input type = "checkbox" name= "chkTruyenTrang"> Truyện tranh <br>
-        <input type= "submit" name= "cmd" value= "Góp ý" href="Bai7-NV3.html" target="noidung">
+        <input type= "submit" id="ok" name= "ok" value= "Góp ý" >
     </form>
   </body>
 </html>
