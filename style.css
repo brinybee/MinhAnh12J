@@ -3,7 +3,8 @@
 .bee
 { float: left; display: block;}
 .header { color: red; background-color: darkgrey; padding: 15px; text-align: center; width: 100%; height: 100%;}
-.menu  { background-color: lightgrey;}
+.menu  { overflow: hidden; background-color: lightgrey;}
+.menu a { float: left; display: block;  color: #f2f2f2;  text-align: center;  padding: 14px 16px;  text-decoration: none;}
 .menu b { color: #333333;}
-.menu a:hover{ color: #999999;}
+.menu a:hover{ background-color: #ddd; color: black;
 .noidung { width: 100%; height: 100%;}
