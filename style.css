@@ -1,9 +1,24 @@
 .briny { background-color: #777777; color: darkygrey; text-align: center; padding: 20px;}
-.mia { background-color: #777777; color: darkgrey; text-align: center; padding: 20px;}
 .bee
 { float: left; display: block;}
 .header { color: red; background-color: darkgrey; padding: 15px; text-align: center; width: 100%; height: 100%;}
 .menu  { background-color: lightgrey;}
+.menu a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.menu a:hover {
+  background-color: #ddd;
+  color: black; }
+
 .menu b { color: #333333;}
-.menu a { width: 70%;}
+.xixi { width: 70%;}
 .noidung { width: 100%; height: 100%;}
+
+
+
+
