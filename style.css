@@ -1,7 +1,4 @@
 .briny { background-color: #222222; color: #777777; text-align: center; padding: 20px;}
-.bee
-{ float: left; display: block;}
-.header { color: red; background-color: darkgrey; padding: 15px; text-align: center; width: 100%; height: 100%;}
 .menu  { background-color: #222222;}
 .menu a {
   float: left;
@@ -16,7 +13,7 @@
 
 .menu b { color: #333333;}
 .xixi { width: 70%;}
-.noidung { width: 100%; height: 100%;}
+.noidung { width: 300%; height: 300%;}
 
 
 
